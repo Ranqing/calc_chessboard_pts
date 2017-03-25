@@ -188,7 +188,7 @@ int main(int argc, char * argv[])
                     ptr_raw_disp[idx] = (float)qing_get_interpolate_disp_value(x, y, coff);
                     //ptr_disp[idx] = ptr_raw_disp[idx] - offset;
                     if(ptr_raw_disp[idx]< min_val)
-                        min_val = ptr_disp[idx];
+                        min_val = ptr_raw_disp[idx];
                 }
             }
             offset = min_val - 10;   cout << "disp offset = " << offset << endl;
