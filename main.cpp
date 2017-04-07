@@ -1,7 +1,7 @@
 #include "../../../Qing/qing_common.h"
 #include "../../../Qing/qing_dir.h"
 #include "../../../Qing/qing_disp.h"
-#include "../../../Qing/qing_io.h"
+#include "../../../Qing/qing_file_reader.h"
 #include "../../../Qing/qing_ply.h"
 
 string wnd_name = "mask";
